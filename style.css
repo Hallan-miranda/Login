@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gloria+Hallelujah&family=Montserrat&family=Nunito:wght@200;400&family=Open+Sans&family=Rajdhani&family=Roboto:wght@300&family=Ropa+Sans&family=Rubik:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    height: 20vh;
+}
+
+main{
+    height: 75vh;
+}
+
+footer{
+    height: 5vh;
+}
+header p{
+    background-color: #1e72b0;
+    display: flex;
+    height: 20px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    align-items: center;
+    
+}
+
+.cabecalho{
+    display:flex;
+    background-color: #1e90b0;
+    height:50px;
+    align-items: center;
+    
+}
+
+.cabecalho img{
+    height:40px;
+    margin: 0px 5px;
+}
+
+.cabecalho h1{
+    color:aliceblue;
+    margin: 0px 5px;
+    font-family:Arial, Helvetica, sans-serif    ;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 170px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:2em;
+}
+
+.registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 0px;
+}
+.login input{
+    width: 250px;
+    margin: 2px 0px;
+
+}
+
+.login button{
+    width: 250px;
+    border-radius: 15px;
+    color: white;
+    background-color: #1e72b0;
+    border-color: white;
+}
+
+footer p{
+    background-color: #76b5c5;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* footer{
+    display:flex;
+    align-items: flex-end;
+} */
